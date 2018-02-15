@@ -96,7 +96,7 @@
 								</div>
 								<div class="form-group">
 									<label for="inputEmail4">Fecha de la reserva</label>
-									<div class="bfh-datepicker" data-format="y-m-d" data-date="today" required></div>
+									<div class="bfh-datepicker" data-format="d-m-y" data-date="today" required></div>
 								</div>
 								<div class="form-row">
 									<div class="form-group col-md-6">
@@ -112,7 +112,7 @@
 									</div>
 									<div class="form-group col-12">
 										<label for="inputPassword4">Número de Comensales</label>
-										<input type="number" required/>
+										<input type="number" name="quantity" min="1" max="15" required>
 									</div>
 								</div>
 								<button type="submit" class="btn btn-primary">Reservar</button>
